@@ -1,8 +1,6 @@
 // Copyright (c) Sandeep Mistry. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-#ifdef ARDUINO_ARCH_ESP32
-
 #include "esp_intr.h"
 #include "soc/dport_reg.h"
 #include "driver/gpio.h"
@@ -412,4 +410,3 @@ void ESP32SJA1000Class::onInterrupt(void* arg)
 
 ESP32SJA1000Class CAN;
 
-#endif
