@@ -60,4 +60,3 @@ extern ESP32SJA1000Class CAN;
 
 #endif
 
-#endif
